@@ -22,6 +22,11 @@ export class UserRequest {
     )
   }
 
+  // 获取登录状态
+  static request_login_status() {
+    return request(BASE_PATH + '/login/status', 'GET', {}, { showloading: true })
+  }
+
   // 刷新登录
   static login_refresh() {
     return request(BASE_PATH + '/login/refresh', 'GET', {}, { showloading: true })
