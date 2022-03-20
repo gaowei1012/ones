@@ -7,7 +7,23 @@ export class SongRequst {
     return request(BASE_PATH + `/user/playlist?uid=${uid}`, 'GET', {}, { showloading: true })
   }
 
+  // 更新歌单
   static update_user_playlist(id: number, name: string, desc: string, tags: string) {
-    // return request()
+    return request(
+      BASE_PATH + `/playlist/update?id=${id}&name=${name}&desc=${desc}&tags=${tags}`,
+      'GET',
+      {},
+      { showloading: true }
+    )
+  }
+
+  // 更新歌单描述
+  static update_playlist_desc(id: number, desc: string) {
+    return request(
+      BASE_PATH + `/playlist/desc/update?id=${id}&desc=${desc}`,
+      'GET',
+      {},
+      { showloading: true }
+    )
   }
 }
