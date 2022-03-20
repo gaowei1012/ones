@@ -1,7 +1,7 @@
-import Toast from 'react-native-root-toast';
+import Toast from 'react-native-root-toast'
 
 export class RootToast {
-  static toast: any;
+  static toast: any
 
   /**
    * toast 提示
@@ -14,6 +14,6 @@ export class RootToast {
       shadow: true,
       animation: true,
       duration,
-    });
+    })
   }
 }

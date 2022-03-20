@@ -1,2 +1,2 @@
-export * from './homeScreen';
-export * from './profileScreen';
+export * from './homeScreen'
+export * from './profileScreen'

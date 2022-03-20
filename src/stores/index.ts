@@ -1,5 +1,11 @@
-export type RootStore = {};
+import { UserStore } from './user'
 
-const RootStore = {};
+export type RootStore = {
+  userInstance: UserStore
+}
 
-export default RootStore;
+const RootStore = {
+  userInstance: new UserStore(),
+}
+
+export default RootStore
