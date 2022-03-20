@@ -5,5 +5,7 @@ export class UserStore {
     makeObservable(this, {})
   }
 
-  async request_login(data: { phone: string; password: string }) {}
+  async request_phone_login(data: { phone: string; password: string }) {}
+
+  async request_email_login(data: { email: string; password: string }) {}
 }

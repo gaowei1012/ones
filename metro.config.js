@@ -6,6 +6,13 @@
  */
 
 module.exports = {
+  dependencies: {
+    'react-native-flipper': {
+      platforms: {
+        ios: null, // Disable autolinking on iOS
+      },
+    },
+  },
   transformer: {
     getTransformOptions: async () => ({
       transform: {

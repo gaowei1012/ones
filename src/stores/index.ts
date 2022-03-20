@@ -1,11 +1,11 @@
 import { UserStore } from './user'
 
 export type RootStore = {
-  userInstance: UserStore
+  // userInstance: UserStore
 }
 
 const RootStore = {
-  userInstance: new UserStore(),
+  // userInstance: new UserStore(),
 }
 
 export default RootStore
