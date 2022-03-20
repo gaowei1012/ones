@@ -1,11 +1,3 @@
-/*
- * @Author: mingwei
- * @Date: 2022-02-14 15:50:45
- * @LastEditors: weiqi
- * @LastEditTime: 2022-02-22 17:26:10
- * @Description: file content
- * @FilePath: /yl-mobile/frontend/src/rootStore/useStore.tsx
- */
 import React from 'react';
 import { useLocalObservable } from 'mobx-react-lite';
 import rootStore, { RootStore } from './index';

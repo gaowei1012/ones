@@ -1,11 +1,3 @@
-/*
- * @Author: weiqi
- * @Date: 2022-02-18 18:27:44
- * @LastEditors: weiqi
- * @LastEditTime: 2022-02-22 17:35:08
- * @Description: file content
- * @FilePath: /yl-mobile/frontend/src/rootNavigation/RootNavigatorBottom.tsx
- */
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HomeScreen, ProfileScreen } from './screen';
