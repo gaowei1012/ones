@@ -26,4 +26,14 @@ export class SongRequst {
       { showloading: true }
     )
   }
+
+  // 获取音乐url
+  static request_song(id: string) {
+    return request(BASE_PATH + `/check/url?id=${id}`, 'GET', {}, { showloading: true })
+  }
+
+  // 检查歌曲是否可用
+  static check_music(id: string) {
+    return request(BASE_PATH + `/check/music?id=${id}`, 'GET', {}, { showloading: true })
+  }
 }
