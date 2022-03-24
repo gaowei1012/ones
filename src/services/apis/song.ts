@@ -29,7 +29,7 @@ export class SongRequst {
 
   // 获取音乐url
   static request_song(id: string) {
-    return request(BASE_PATH + `/check/url?id=${id}`, 'GET', {}, { showloading: true })
+    return request(BASE_PATH + `/song/url?id=${id}`, 'GET', {}, { showloading: true })
   }
 
   // 检查歌曲是否可用
