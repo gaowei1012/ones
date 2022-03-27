@@ -2,7 +2,7 @@
  * @Author: mingwei
  * @Date: 2022-03-21 09:17:26
  * @LastEditors: mingwei
- * @LastEditTime: 2022-03-27 22:35:34
+ * @LastEditTime: 2022-03-27 22:49:20
  * @FilePath: /ones/src/services/config.ts
  * @Description: API路由配置
  */
