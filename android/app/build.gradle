@@ -1,5 +1,14 @@
 apply plugin: "com.android.application"
 
+// 环境配置
+project.ext.envConfigFiles = [
+    dev: ".env.development",
+    prod: ".env.production",
+    test: '.env.test',
+]
+
+apply from: "../../node_modules/react-native/react.gradle"
+
 import com.android.build.OutputFile
 
 /**
